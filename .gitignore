@@ -1,0 +1,25 @@
+# 备份文件（改 EFI 时产生的历史 config）
+*.bak
+*.before-*
+config.plist.*.bak
+
+# OpenCore 运行时日志（含本机硬件信息，勿上传）
+opencore-*.txt
+*.log
+
+# 大体积镜像与安装包（不入库，改用网盘链接）
+*.rdr
+*.dmg
+*.pkg
+*.iso
+*.zip
+*.7z
+
+# 系统与编辑器垃圾
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+*~
+.vscode/
+.idea/
